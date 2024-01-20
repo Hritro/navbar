@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.bar{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.side-bar-container{
+    display: none;
+}
+
+.side-bar{
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    width: 200px;
+    height: 700px;
+
+}
+
+.side-bar-item{
+    cursor: pointer;
+    padding: 10px;
+}
+
+.side-bar-item:hover{
+    background-color: crimson;
+}
+
+.show{
+    display: block;
+}
+
+.close{
+    font-size: 30px;
+    cursor: pointer;
+    color: red;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
